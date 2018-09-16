@@ -14,6 +14,6 @@ The application calls a static method on startup in Global.asax. The method whic
 Whenever a request made with "key" as a parameter. It looks for that key in dictionary object and if found returns a json conatining key value pair else it returns a standard json {"error":"No such key Exist"}
 
 Assumptions : 
-1) The csv is loaded on the applciation starup.
-2) For a give key there can exist only one record
-2) The key is case sensitive.
+1) The csv is loaded on the applciation startup.
+2) For a give key there can exist only one record.
+3) The key is case sensitive.
